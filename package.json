@@ -1,0 +1,22 @@
+{
+  "name": "VKS",
+  "version": "1.0.5",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "socket.io": "^4.3.1"
+	"heroku-postbuild": "npm run build"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
